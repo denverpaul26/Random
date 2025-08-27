@@ -1,0 +1,68 @@
+/* General design */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh; /* full height ng screen */
+    display: flex; /* gagamit tayo ng flexbox */
+    justify-content: center; /* gitna horizontal */
+    align-items: center; /* gitna vertical */
+    background: #f4f6f9;
+}
+
+/* Title design */
+h1 {
+    color: #333;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Calculator box */
+.calculator {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Inputs */
+input {
+    margin: 8px 0;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Result text */
+.result {
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Error message */
+.error {
+    color: red;
+}
